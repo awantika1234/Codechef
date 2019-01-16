@@ -1,0 +1,14 @@
+T=int(input())
+for i in range(T):
+    S=input()
+    p=S.split(" ")
+    for i in range(len(p)):
+        if(p[i]=="not"):
+            h=1
+            break
+        else:
+            h=0
+    if(h==1):
+         print("Real Fancy")
+    else:
+        print("regularly fancy")
